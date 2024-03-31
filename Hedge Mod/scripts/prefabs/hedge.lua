@@ -39,7 +39,11 @@ end
 
 
 local function onsave(inst, data)
-    data.is_grown = inst.components.harvestable:CanBeHarvested()
+    if inst.components.harvestable ~= nil then
+        data.is_grown = inst.components.harvestable:CanBeHarvested()
+    else
+        data.is_grown = false
+    end
     data.color = inst.color
 end
 

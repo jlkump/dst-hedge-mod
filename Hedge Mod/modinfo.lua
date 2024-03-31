@@ -1,5 +1,5 @@
 name = "Hedge Mod"
-version = "3.0"
+version = "3.1"
 
 description = "This mod ports the hedges from DS Hamlet to DST. Hedges can be crafted, will grow overtime, and can be sheared or picked."
 author = "jkump1"
